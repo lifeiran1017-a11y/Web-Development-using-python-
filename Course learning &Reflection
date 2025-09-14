@@ -1,1 +1,30 @@
+14th Sep Week1 Learning reflection 
+session1 VS code and python IDLE install & set up
+session2  Variables, Data Types- Dictionary/list/tuple 
+          class exercise- Challenge 1: Design a Data Structure for a Competition
+          
+# Creating a dictionary to store competition information
+
+competition = {
+    "Team A": [("John", 10), ("Jane", 12)],# 列表的元组（list of tuples），常用于存储键值对或类似记录的数据
+    "Team B": [("Mike", 8), ("Lucy", 15)]
+}
+
+# Accessing and displaying team data
+"""team_name = "Team B"
+team_info = competition[team_name]
+for member, score in team_info:
+    print(f"{member} scored {score} ")"""
+
+"""for team_name in competition:
+    print(f"{team_name}: {competition[team_name]}")"""
+
+for team_name in competition:
+    team_info=competition[team_name]
+    for member, score in team_info:
+        print(f"{member} scored {score}")
+
+  List learning tutorials- https://www.runoob.com/python/python-lists.html
+    
+
 
